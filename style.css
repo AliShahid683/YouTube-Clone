@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 70px;
+  width: 100%;
+  background-color: rgb(214, 207, 207);
+  display: flex;
+  justify-content: space-between;
+  z-index: 200;
+  border-bottom: 1px solid #c6c6c6;
+}
+/* <!-- ........logo-box...... --> */
+.logo-box {
+  display: flex;
+  margin-left: 10px;
+}
+.bar:hover{
+      background-color: #c6c6c6;
+    border-radius: 50%;
+   
+}
+.bar {
+     margin-top: 10px;
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+   
+}
+.logo {
+  height: 20px;
+  width: 93px;
+  padding: 18px 14px 18px 16px;
+ 
+}
+/* <!-- ........search-bar...... --> */
+.search-bar {
+  height: 40px;
+  width: 600px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  height: 40px;
+  width: 515px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
+  border-radius: 40px 0 0 40px;
+  padding-left: 20px;
+  border: 1px solid #c6c6c6;
+}
+.input:hover{
+
+}
+.search-icon {
+  height: 40px;
+  width: 64px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 0 40px 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #c6c6c6;
+}
+.micro-icon :hover{
+  background-color: rgb(235, 235, 235);
+  height: 40px;
+  width:  40px;
+  border-radius: 50%;
+}
+.micro-icon {
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* <!-- ........icon-box...... --> */
+
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+  padding-right: 20px;
+}
+.create {
+  width: 95px;
+  height: 36px;
+  background-color: #EBEBEB;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  padding-left: 4px;
+  padding-right: 4px;
+  
+}
