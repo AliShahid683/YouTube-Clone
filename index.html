@@ -1,87 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="style2.css" />
-  <title>youtube clone</title>
-</head>
-
-<body>
-  <!-- ........header...... -->
-  <header>
-    <!-- ........logo-box...... -->
-    <span class="logo-box">
-      <span class="bar">
-        <i class="fa-solid fa-bars"></i>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style2.css" />
+    <title>youtube clone</title>
+  </head>
+  <body>
+    <!-- ........header...... -->
+    <header>
+      <!-- ........logo-box...... -->
+      <span class="logo-box">
+        <span class="bar">
+          <i class="fa-solid fa-bars"></i>
+        </span>
+        <span class="logo">
+          <img src="img-2/logo.png" alt="logo" />
+        </span>
       </span>
-      <span class="logo">
-        <img src="img-2/logo.png" alt="logo" />
-      </span>
-    </span>
-    <!-- ........search-bar...... -->
-    <span class="search-bar">
-      <span class="input">
-        <input type="text" placeholder="Search" style="
+      <!-- ........search-bar...... -->
+      <span class="search-bar">
+        <span class="input">
+          <input
+            type="text"
+            placeholder="Search"
+            style="
               width: 100%;
               border: 0;
               height: 30px;
               background-color: #ffffff;
-            " />
+            "
+          />
+        </span>
+        <span class="search-icon">
+          <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
+        </span>
+        <span class="micro-icon">
+          <i class="fa-solid fa-microphone" style="color: #000000"></i>
+        </span>
       </span>
-      <span class="search-icon">
-        <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
+      <!-- ........icon-box...... -->
+      <span class="icon-box">
+        <span class="create">
+          <i class="fa-solid fa-plus" style="color: #000000"></i>
+          Create
+        </span>
+        <span class="bell">
+          <i class="fa-solid fa-bell" style="color: #000000"></i>
+        </span>
+        <span class="profile">
+          <i class="fa-solid fa-user" style="color: #000000"></i>
+        </span>
       </span>
-      <span class="micro-icon">
-        <i class="fa-solid fa-microphone" style="color: #000000"></i>
-      </span>
-    </span>
-    <!-- ........icon-box...... -->
-    <span class="icon-box">
-      <span class="create">
-        <i class="fa-solid fa-plus "></i>
-        Create
-      </span>
-      <span class="bell">
-        <i class="fa-solid fa-bell" style="color: #000000"></i>
-      </span>
-      <span class="profile">
-        <i class="fa-solid fa-user" style="color: #000000"></i>
-      </span>
-    </span>
-  </header>
+    </header>
 
-  <!--......................... Aside bar..................... -->
-  <div class="big-boss">
-    <aside>
-      <div class="side-box1">
-        <i class="fa-solid fa-house" style="color: #000000"></i>
-        <div class="sup-box">Home</div>
+    <!--......................... Aside bar..................... -->
+    <div class="big-boss">
+      <aside>
+        <!----------------== part 1 ==------------>
+        <div class="side-box1">
+          <i class="fa-solid fa-house" style="color: #000000"></i>
+          <div class="sup-box">Home</div>
+        </div>
+        <div class="side-box2">
+          <i class="fa-solid fa-film" style="color: #000000"></i>
+          <div class="sup-box">Shorts</div>
+        </div>
+        <div class="side-box3">
+          <i class="fa-solid fa-photo-film" style="color: #000000"></i>
+          <div class="sup-box">Subscriptions</div>
+        </div>
+        <!----------------== part 2 ==------------>
+        <hr />
+        <div class="section2">
+          <pre>You ></pre>
+        </div>
+        <div class="side-box4">
+          <i class="fa-solid fa-clock-rotate-left" style="color: #000000"></i>
+          <div class="sup-box">History</div>
+        </div>
+        <div class="side-box5">
+          <i class="fa-solid fa-layer-group" style="color: #000000"></i>
+          <div class="sup-box">Playlists</div>
+        </div>
+        <div class="side-box6">
+          <i class="fa-solid fa-video" style="color: #000000"></i>
+          <div class="sup-box">Your videos</div>
+        </div>
+        <div class="side-box7">
+          <i class="fa-solid fa-graduation-cap" style="color: #000000"></i>
+          <div class="sup-box">Your courses</div>
+        </div>
+        <div class="side-box8">
+          <i class="fa-regular fa-clock" style="color: #000000"></i>
+          <div class="sup-box">Watch later</div>
+        </div>
+        <div class="side-box9">
+          <i class="fa-regular fa-thumbs-up fa-lg" style="color: #000000"></i>
+          <div class="sup-box">Liked videos</div>
+        </div>
+        <!----------------== part 3 ==------------>
+        <hr />
+        <div class="section2">
+          <pre>Subscriptions ></pre>
+        </div>
+       <div class="liked-box1">
+         <i class="fa-solid fa-user" style="color: #000000;"></i>
+          <div class="sup-box">CodeWithHarry</div>
+       </div>
+       <div class="liked-box2">
+       <i class="fa-solid fa-user" style="color: #000000;"></i>
+          <div class="sup-box">Yahu Baba</div>
+       </div>
+       <div class="liked-box3">
+         <i class="fa-solid fa-user" style="color: #000000;"></i>
+          <div class="sup-box">Apna College</div>
+       </div>
+       <div class="liked-box4">
+         <i class="fa-solid fa-user" style="color: #000000;"></i>
+          <div class="sup-box">Technology Gyan</div>
+       </div>
+       <div class="liked-box5">
+         <i class="fa-solid fa-user" style="color: #000000;"></i>
+          <div class="sup-box">Shradha Khapra</div>
+       </div>
+       <div class="liked-box6">
+         <i class="fa-solid fa-user" style="color: #000000;"></i>
+          <div class="sup-box">Dhruv Rathee</div>
+       </div>
+       <!----------------== part 4 ==------------>
+       <hr />
+        <div class="section2">
+          <pre>Explore</pre>
+        </div>
+        <div class="explore-box1">
+          <i class="fa-solid fa-music" style="color: #000000;"></i>
+          <div class="sup-box">Music</div>
+        </div>
+        <div class="explore-box2">
+           <i class="fa-solid fa-gamepad" style="color: #000000;"></i>
+          <div class="sup-box">Gaming</div>
+        </div>
+        <div class="explore-box3">
+          <i class="fa-solid fa-newspaper" style="color: #000000;"></i>
+          <div class="sup-box">News</div>
+        </div>
+        <div class="explore-box4">
+           <i class="fa-solid fa-medal" style="color: #000000;"></i>
+          <div class="sup-box">Sports </div>
+        </div>
+        <!----------------== part 5 ==------------>
+        <hr />
+       <br>
+        <div class="s-box1">
+            <i class="fa-solid fa-gear" style="color: #000000;"></i>
+          <div class="sup-box">Setting </div>
+        </div>
+        <div class="s-box2">
+            <i class="fa-solid fa-flag" style="color: #000000;"></i>
+          <div class="sup-box">Report history </div>
+        </div>
+        <div class="s-box3">
+            <i class="fa-solid fa-circle-question" style="color: #000000;"></i>
+          <div class="sup-box">Help </div>
+        </div>
+        <div class="s-box4">
+            <i class="fa-regular fa-message" style="color: #000000;"></i>
+          <div class="sup-box">Send feedback </div>
+        </div>
+      </aside>
+      <!--......................... Nav bar..................... -->
+      <div class="nav-main">
+        <div class="nav-list">
+        <div class=" list1">All</div>
+        <div class=" list2">Web Development</div>
+        <div class=" list3">Data stractures</div>
+        <div class=" list4">Study Skills</div>
+        <div class=" list5">Skills</div>
+        <div class=" list6">Podcasts</div>
+        <div class=" list7">Live</div>
+        <div class=" list8">Gaming</div>
+        <div class=" list9">English Grammer</div>
+        <div class=" list10">Goal</div>
+        <div class=" list11">Gadgets</div>
+        <div class=" list12">Computer Hardware</div>
+        <div class=" list13">Self Confidence</div>
+        <div class=" list14">Comedy</div>
+        <div class=" list15">Animated Films</div>
+        <div class=" list16">Recently uploaded</div>
+        <div class=" list17">New for you</div>
+        
+        </div>
+      
+      <!--......................... Main..................... -->
+      <main>abcd</main>
       </div>
-      <div class="side-box2">
-        <i class="fa-solid fa-film" style="color: #000000;"></i>
-        <div class="sup-box">Shorts</div>
-      </div>
-      <div class="side-box3">
-        <i class="fa-solid fa-photo-film" style="color: #000000;"></i>
-        <div class="sup-box">Subscriptions</div>
-      </div>
-      <hr>
-      <div class="section2">
-        <pre>You ></pre>
-
-
-      </div>
-    </aside>
-    <!--......................... Nav bar..................... -->
-    <nav>1234</nav>
-    <!--......................... Main..................... -->
-    <main>abcd</main>
-  </div>
-</body>
-
+    </div>
+  </body>
 </html>

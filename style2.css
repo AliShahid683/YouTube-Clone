@@ -38,11 +38,13 @@ header {
   align-items: center;
   justify-content: center;
   margin-top: 12px;
+  cursor: pointer;
 }
 .logo {
   height: 20px;
   width: 93px;
   padding: 18px 14px 18px 16px;
+  cursor: pointer;
 }
 /* <!-- ........search-bar...... --> */
 .search-bar {
@@ -74,6 +76,7 @@ header {
   justify-content: center;
   align-items: center;
   border: 1px solid #c6c6c6;
+  cursor: pointer;
 }
 .search-icon:hover {
   background-color: #d6d6d6;
@@ -83,6 +86,7 @@ header {
   height: 45x;
   background-color: #d7d7d7;
   border-radius: 50%;
+
 }
 .micro-icon {
   width: 40px;
@@ -92,6 +96,8 @@ header {
   justify-content: center;
   background-color: #f1f1f1;
   border-radius: 50%;
+  cursor: pointer;
+ margin-left: 10px;
 }
 /* <!-- ........icon-box...... --> */
 
@@ -101,6 +107,7 @@ header {
   justify-content: space-evenly;
   gap: 30px;
   padding-right: 20px;
+  
 }
 .create {
   width: 95px;
@@ -108,9 +115,10 @@ header {
   background-color: #ebebeb;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   border-radius: 20px;
   padding-right: 10px;
+  cursor: pointer;
 }
 .create:hover {
   width: 95px;
@@ -131,11 +139,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 /* <!--......................... Aside bar..................... --> */
 aside {
   width: 240px;
-  height: 100vh;
+  height: fit-content;
   background-color: #ffffff;
   padding: 20px;
 }
@@ -149,12 +158,26 @@ aside {
   justify-content: start;
   padding: 0px 12px;
   margin-bottom: 0px;
+  cursor: pointer;
+}
+.side-box1:hover{
+   width: 204px;
+  height: 40px;
+  background-color: #d7d7d7;
+  border-radius: 10px;
 }
 .sup-box {
   display: inline-block;
   padding-left: 20px;
 }
-.side-box2,.side-box3{
+.side-box2,
+.side-box3,
+.side-box4,
+.side-box5,
+.side-box6,
+.side-box7,
+.side-box8,
+.side-box9{
  width: 204px;
   height: 40px;
   background-color: white;
@@ -164,9 +187,185 @@ aside {
   justify-content: start;
   padding: 0px 12px;
   margin-bottom: 0px;
+  font-size: 16px;
+  cursor: pointer;
 }
+.side-box2:hover,
+.side-box3:hover,
+.side-box4:hover,
+.side-box5:hover,
+.side-box6:hover,
+.side-box7:hover,
+.side-box8:hover,
+.side-box9:hover{
+   width: 204px;
+  height: 40px;
+  background-color:  #f1f1f1;
+  border-radius: 10px;
+}
+
 .section2{
-  padding: 0 12px;
+  height: 40px;
+  width: 204px;
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor: pointer;
 }
+.section2:hover{
+    width: 204px;
+  height: 40px;
+  background-color:  #f1f1f1;
+  border-radius: 10px;
+}
+.liked-box1,
+.liked-box2,
+.liked-box3,
+.liked-box4,
+.liked-box5,
+.liked-box6{
+  width: 204px;
+  height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0px 12px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.liked-box1:hover,
+.liked-box2:hover,
+.liked-box3:hover,
+.liked-box4:hover,
+.liked-box5:hover,
+.liked-box6:hover{
+    width: 204px;
+  height: 40px;
+  background-color:  #f1f1f1;
+  border-radius: 10px;
+}
+.explore-box1,
+.explore-box2,
+.explore-box3,
+.explore-box4{
+ width: 204px;
+  height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0px 12px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.explore-box1:hover,
+.explore-box2:hover,
+.explore-box3:hover,
+.explore-box4:hover{
+   width: 204px;
+  height: 40px;
+  background-color:  #f1f1f1;
+  border-radius: 10px;
+}
+.s-box1,
+.s-box2,
+.s-box3,
+.s-box4{
+ width: 204px;
+  height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0px 12px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.s-box1:hover,
+.s-box2:hover,
+.s-box3:hover,
+.s-box4:hover{
+  width: 204px;
+  height: 40px;
+  background-color:  #f1f1f1;
+  border-radius: 10px;
+}
+.nav-main{
+  display: flex;
+  
+}
+.nav-list{
+  width: 100wh;
+  height: 56px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 12px;
+  gap: 12px;
+ 
+}
+ .list1
+ {
+  height:32px ;
+  width:fit-content;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", "Arial", sans-serif;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 500;
+   padding: 6px 12px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.list2,
+ .list3,
+ .list4,
+ .list5,
+ .list6,
+ .list7,
+ .list8,
+ .list9,
+ .list10,
+ .list11,
+ .list12,
+ .list13,
+ .list14,
+ .list15,
+ .list16,
+ .list17{
+   height:32px ;
+  width:100%;
+  color: black;
+   background-color: #f1f1f1;
+   border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", "Arial", sans-serif;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 500;
+   padding: 6px 12px;
+   white-space: nowrap;
+   cursor: pointer;
+ }
+ 
+
+
